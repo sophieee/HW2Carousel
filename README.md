@@ -22,12 +22,12 @@ Tutorial Screens
 • Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
 
 Image Timeline
-Display a scrollable view of images.
-User can tap on the conversations button to see the conversations screen (push).
-User can tap on the profile image to see the settings view (modal from below).
+
+• Display a scrollable view of images.
+• User can tap on the conversations button to see the conversations screen (push).
+• User can tap on the profile image to see the settings view (modal from below).
 
 Settings
-User can dismiss the settings screen.
-User can log out
 
-GIF:
+• User can dismiss the settings screen.
+• User can log out
