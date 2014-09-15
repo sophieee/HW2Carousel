@@ -12,6 +12,12 @@
 		ED79062619C6621000F67E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED79062419C6621000F67E9D /* Main.storyboard */; };
 		ED79062819C6621000F67E9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED79062719C6621000F67E9D /* Images.xcassets */; };
 		ED79063419C6621000F67E9D /* HW2CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79063319C6621000F67E9D /* HW2CarouselTests.swift */; };
+		ED79063E19C6643E00F67E9D /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79063D19C6643E00F67E9D /* WelcomeScreenViewController.swift */; };
+		ED79064019C67A9800F67E9D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79063F19C67A9800F67E9D /* SignInViewController.swift */; };
+		ED79064219C6A3CC00F67E9D /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79064119C6A3CC00F67E9D /* TutorialViewController.swift */; };
+		ED79064419C6B42300F67E9D /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79064319C6B42300F67E9D /* CarouselViewController.swift */; };
+		ED79064619C6B4D400F67E9D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79064519C6B4D400F67E9D /* SettingViewController.swift */; };
+		ED79064819C6B61400F67E9D /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79064719C6B61400F67E9D /* ConversationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		ED79062D19C6621000F67E9D /* HW2CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED79063219C6621000F67E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED79063319C6621000F67E9D /* HW2CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2CarouselTests.swift; sourceTree = "<group>"; };
+		ED79063D19C6643E00F67E9D /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		ED79063F19C67A9800F67E9D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ED79064119C6A3CC00F67E9D /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		ED79064319C6B42300F67E9D /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarouselViewController.swift; path = ../CarouselViewController.swift; sourceTree = "<group>"; };
+		ED79064519C6B4D400F67E9D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../SettingViewController.swift; sourceTree = "<group>"; };
+		ED79064719C6B61400F67E9D /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationViewController.swift; path = ../ConversationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				ED79062019C6621000F67E9D /* AppDelegate.swift */,
+				ED79064119C6A3CC00F67E9D /* TutorialViewController.swift */,
 				ED79062219C6621000F67E9D /* ViewController.swift */,
+				ED79064719C6B61400F67E9D /* ConversationViewController.swift */,
+				ED79064519C6B4D400F67E9D /* SettingViewController.swift */,
+				ED79064319C6B42300F67E9D /* CarouselViewController.swift */,
 				ED79062419C6621000F67E9D /* Main.storyboard */,
+				ED79063D19C6643E00F67E9D /* WelcomeScreenViewController.swift */,
+				ED79063F19C67A9800F67E9D /* SignInViewController.swift */,
 				ED79062719C6621000F67E9D /* Images.xcassets */,
 				ED79061E19C6621000F67E9D /* Supporting Files */,
 			);
@@ -208,8 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED79064019C67A9800F67E9D /* SignInViewController.swift in Sources */,
 				ED79062319C6621000F67E9D /* ViewController.swift in Sources */,
+				ED79064819C6B61400F67E9D /* ConversationViewController.swift in Sources */,
+				ED79064219C6A3CC00F67E9D /* TutorialViewController.swift in Sources */,
 				ED79062119C6621000F67E9D /* AppDelegate.swift in Sources */,
+				ED79064419C6B42300F67E9D /* CarouselViewController.swift in Sources */,
+				ED79064619C6B4D400F67E9D /* SettingViewController.swift in Sources */,
+				ED79063E19C6643E00F67E9D /* WelcomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
